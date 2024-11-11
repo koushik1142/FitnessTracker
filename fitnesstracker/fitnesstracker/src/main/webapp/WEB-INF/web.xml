@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>AddActivityServlet</servlet-name>
+        <servlet-class>com.fitnesstracker.AddActivityServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddActivityServlet</servlet-name>
+        <url-pattern>/addActivity</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ViewActivitiesServlet</servlet-name>
+        <servlet-class>com.fitnesstracker.ViewActivitiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewActivitiesServlet</servlet-name>
+        <url-pattern>/viewActivities</url-pattern>
+    </servlet-mapping>
+</web-app>
